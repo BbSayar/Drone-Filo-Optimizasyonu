@@ -96,4 +96,5 @@ Tüm örnek drone, teslimat ve no-fly zone verileri data/sample_data.txt dosyas�
 Projeyle ilgili soru, öneri veya katkı talepleriniz için benimle iletişime geçebilirsiniz:
 
 👨‍💻 Geliştiriciler: Barkın Emre Sayar, Hızır Ceylan, Erol Malkoç
+
 📧 E-posta: barkinemresayar@gmail.com
