@@ -50,52 +50,44 @@ Bu proje, bu karmaşık kısıtları dikkate alarak en uygun rotaları belirleye
 - Kenarlar: Drone hareketleri
 - Ağırlıklandırma: Mesafe + taşıma maliyeti + öncelik cezası
 
-## 🌟 A* Algoritması
-Tahmin fonksiyonu: Hedefe uzaklık + no-fly zone cezası
-Kapasite dışı rotalar filtrelenir.
+### 🌟 A* Algoritması
+- Tahmin fonksiyonu: Hedefe uzaklık + no-fly zone cezası
+- Kapasite dışı rotalar filtrelenir.
 
-## 🧩 CSP (Kısıt Tatmin Problemi)
-Bir drone aynı anda bir teslimat yapabilir.
-Drone’lar no-fly zone’ları ihlal edemez.
+### 🧩 CSP (Kısıt Tatmin Problemi)
+- Bir drone aynı anda bir teslimat yapabilir.
+- Drone’lar no-fly zone’ları ihlal edemez.
 
-## 🧬 Genetik Algoritma (GA)
-Başlangıç: Rastgele geçerli rotalar
-Çaprazlama: Yeni rotalar üretimi
-Mutasyon: Nokta değiştirme
-Fitness: Tamamlanan teslimat - enerji - ihlal
+### 🧬 Genetik Algoritma (GA)
+- Başlangıç: Rastgele geçerli rotalar
+- Çaprazlama: Yeni rotalar üretimi
+- Mutasyon: Nokta değiştirme
+- Fitness: Tamamlanan teslimat - enerji - ihlal
 
-## 🧪 Metrikler:
-Tamamlanan teslimat yüzdesi
-Ortalama enerji tüketimi
-Algoritma çalışma süresi (Hedef: < 1 dk)
+### 🧪 Metrikler:
+- Tamamlanan teslimat yüzdesi
+- Ortalama enerji tüketimi
+- Algoritma çalışma süresi (Hedef: < 1 dk)
 
-## 📈 Görselleştirme
-Matplotlib ile rotalar çizilir.
-Harita üzerinde teslimatlar ve yasak bölgeler görsel olarak gösterilir.
+### 📈 Görselleştirme
+- Matplotlib ile rotalar çizilir.
+- Harita üzerinde teslimatlar ve yasak bölgeler görsel olarak gösterilir.
 
 ## ⚙️ Kurulum ve Çalıştırma
 1. Depoyu Klonla
-bash
-Kopyala
-Düzenle
-git clone https://github.com/kullaniciAdi/drone-filo-optimizasyon.git
+```bash
+git clone https://github.com/BbSayar/drone-filo-optimizasyon.git
 cd drone-filo-optimizasyon
-2. Sanal Ortam Oluştur
-bash
-Kopyala
-Düzenle
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-3. Gerekli Kütüphaneleri Kur
-bash
-Kopyala
-Düzenle
+```
+2. Gerekli Kütüphaneleri Kur
+```bash
 pip install -r requirements.txt
-4. Uygulamayı Başlat
-bash
-Kopyala
-Düzenle
+pip install matplotlib numpy
+```
+3. Uygulamayı Başlat
+```bash
 python src/main.py
+```
 
 ## 📁 Veri Seti
 Tüm örnek drone, teslimat ve no-fly zone verileri data/sample_data.txt dosyasında yer almaktadır. İsterseniz bu veri üreticisini kullanarak farklı senaryolar oluşturabilirsiniz.
