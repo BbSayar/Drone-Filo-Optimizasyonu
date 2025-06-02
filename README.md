@@ -72,6 +72,7 @@ Bu proje, bu karmaşık kısıtları dikkate alarak en uygun rotaları belirleye
 ### 📈 Görselleştirme
 - Matplotlib ile rotalar çizilir.
 - Harita üzerinde teslimatlar ve yasak bölgeler görsel olarak gösterilir.
+
 ![senaryo1_düzenli](https://github.com/user-attachments/assets/2d47b657-9cea-464c-abf6-76d668eb1fb6)
 
 ## ⚙️ Kurulum ve Çalıştırma
