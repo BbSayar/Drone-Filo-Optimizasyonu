@@ -72,6 +72,7 @@ Bu proje, bu karmaşık kısıtları dikkate alarak en uygun rotaları belirleye
 ### 📈 Görselleştirme
 - Matplotlib ile rotalar çizilir.
 - Harita üzerinde teslimatlar ve yasak bölgeler görsel olarak gösterilir.
+![senaryo1_düzenli](https://github.com/user-attachments/assets/2d47b657-9cea-464c-abf6-76d668eb1fb6)
 
 ## ⚙️ Kurulum ve Çalıştırma
 1. Depoyu Klonla
@@ -93,8 +94,8 @@ python src/main.py
 Tüm örnek drone, teslimat ve no-fly zone verileri data/sample_data.txt dosyasında yer almaktadır. İsterseniz bu veri üreticisini kullanarak farklı senaryolar oluşturabilirsiniz.
 
 ## 📞 İletişim
-Projeyle ilgili soru, öneri veya katkı talepleriniz için benimle iletişime geçebilirsiniz:
+Projeyle ilgili soru, öneri veya katkı talepleriniz için bizimle iletişime geçebilirsiniz:
 
 👨‍💻 Geliştiriciler: Barkın Emre Sayar, Hızır Ceylan, Erol Malkoç
 
-📧 E-posta: barkinemresayar@gmail.com
+📧 E-posta: barkinemresayar@gmail.com, ceylanhizir53@gmail.com, erolmalkoc04@gmail.com
